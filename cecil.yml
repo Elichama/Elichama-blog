@@ -1,0 +1,19 @@
+title: "Elichama Blog"
+baseline: "Developer from Goma / Butembo"
+baseurl: "https://elichama.github.io/elichama-blog/"
+description: "My personal blog about coding and life in DR Congo"
+author:
+  name: "Elichama"
+  url: "https://github.com/elichama"
+language: en
+
+menus:
+  main:
+    - id: blog
+      name: "Blog"
+      url: "/blog/"
+      weight: 2
+    - id: about
+      name: "About"
+      url: "/about/"
+      weight: 3
