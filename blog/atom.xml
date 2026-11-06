@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="https://elichama.github.io/elichama-blog/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://elichama.github.io/elichama-blog/blog/</id>
+  <title>Elichama Blog - Blog</title>
+  <subtitle><![CDATA[My personal blog about coding and life in DR Congo]]></subtitle>
+  <link href="https://elichama.github.io/elichama-blog/blog/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://elichama.github.io/elichama-blog/blog/" rel="alternate" type="text/html" />
+  <updated>2026-11-06T10:04:51+00:00</updated>
+  <author>
+    <name>Elichama</name>
+    <uri>https://github.com/elichama</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>https://elichama.github.io/elichama-blog/blog/my-first-article/</id>
+    <title>Hello World from Goma - My First Blog Post</title>
+    <published>2026-05-13T00:00:00+00:00</published>
+    <link href="https://elichama.github.io/elichama-blog/blog/my-first-article/" rel="alternate" type="text/html" />
+    <content type="html">
+      <![CDATA[<h2 id="hello-from-goma">Hello from Goma!<a class="heading-anchor" href="#hello-from-goma" aria-hidden="true" tabindex="-1"></a></h2>
+<p>My name is Elichama. I'm writing my first blog post from Goma / Butembo, DR Congo.</p>
+<p>For a long time, I wanted to have my own website. Today, I made it! This blog was built with <strong>Cecil</strong> and <strong>PHP</strong>.</p>
+<h3 id="why-this-blog">Why this blog?<a class="heading-anchor" href="#why-this-blog" aria-hidden="true" tabindex="-1"></a></h3>
+<p>I want to share:</p>
+<ul>
+<li>What I learn in coding (PHP, Web Development)</li>
+<li>Life in Goma and Butembo</li>
+<li>Practical English and tech tips</li>
+</ul>
+<p>This is just the beginning. I will post every week.</p>
+<p>Thank you for reading my first post!</p>
+<p><strong>Elichama</strong></p>
+<blockquote>
+<p>"Small steps every day."</p>
+</blockquote>]]>
+    </content>
+  </entry>
+</feed>
