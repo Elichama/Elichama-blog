@@ -2,6 +2,8 @@ name: Deploy Cecil to Pages
 on:
   push:
     branches: [ main ]
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,6 +12,7 @@ jobs:
       - uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
+      - run: curl -LO https://cecil.app/cecil.phar
       - run: php cecil.phar build
       - uses: peaceiris/actions-gh-pages@v4
         with:
