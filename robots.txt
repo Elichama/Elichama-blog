@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 # disallow redirects pages
 # disallow 404 page
-Disallow: /elichama-blog/404.html
+Disallow: /Elichama-blog/404.html
 
 # sitemap
-Sitemap: https://elichama.github.io/elichama-blog/sitemap.xml
+Sitemap: https://elichama.github.io/Elichama-blog/sitemap.xml

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="https://elichama.github.io/elichama-blog/xsl/atom.xsl" media="all"?>
+<?xml-stylesheet type="text/xsl" href="https://elichama.github.io/Elichama-blog/xsl/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>https://elichama.github.io/elichama-blog/</id>
+  <id>https://elichama.github.io/Elichama-blog/</id>
   <title>Elichama Blog</title>
   <subtitle><![CDATA[My personal blog about coding and life in DR Congo]]></subtitle>
-  <link href="https://elichama.github.io/elichama-blog/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://elichama.github.io/elichama-blog/" rel="alternate" type="text/html" />
-  <updated>2026-11-07T15:40:01+00:00</updated>
+  <link href="https://elichama.github.io/Elichama-blog/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://elichama.github.io/Elichama-blog/" rel="alternate" type="text/html" />
+  <updated>2026-11-07T15:54:49+00:00</updated>
   <author>
-    <name>Elichama</name>
-    <uri>https://github.com/elichama</uri>
+    <name>Elichama Blog</name>
+    <uri>https://elichama.github.io/Elichama-blog/</uri>
   </author>
   <entry xml:lang="en">
-    <id>https://elichama.github.io/elichama-blog/about/</id>
+    <id>https://elichama.github.io/Elichama-blog/about/</id>
     <title>About</title>
-    <published>2026-11-07T15:39:56+00:00</published>
-    <link href="https://elichama.github.io/elichama-blog/about/" rel="alternate" type="text/html" />
+    <published>2026-11-07T15:54:45+00:00</published>
+    <link href="https://elichama.github.io/Elichama-blog/about/" rel="alternate" type="text/html" />
     <content type="html">
       <![CDATA[<h1>About</h1>
 <p>Cecil is a CLI application, powered by <a href="https://www.php.net/" rel="noopener noreferrer">PHP</a>, that merges plain text files (written in <a href="https://daringfireball.net/projects/markdown/" rel="noopener noreferrer">Markdown</a>), images and <a href="https://twig.symfony.com/" rel="noopener noreferrer">Twig</a> templates to generate a <a href="https://en.wikipedia.org/wiki/Static_web_page" rel="noopener noreferrer">static website</a>.</p>
-<p><a href="/elichama-blog/">Back to the home page</a></p>]]>
+<p><a href="/Elichama-blog/">Back to the home page</a></p>]]>
     </content>
   </entry>
   <entry xml:lang="en">
-    <id>https://elichama.github.io/elichama-blog/blog/my-first-article/</id>
+    <id>https://elichama.github.io/Elichama-blog/blog/my-first-article/</id>
     <title>Hello World from Goma - My First Blog Post</title>
     <published>2026-05-13T00:00:00+00:00</published>
-    <link href="https://elichama.github.io/elichama-blog/blog/my-first-article/" rel="alternate" type="text/html" />
+    <link href="https://elichama.github.io/Elichama-blog/blog/my-first-article/" rel="alternate" type="text/html" />
     <content type="html">
       <![CDATA[<h2 id="hello-from-goma">Hello from Goma!<a class="heading-anchor" href="#hello-from-goma" aria-hidden="true" tabindex="-1"></a></h2>
 <p>My name is Elichama. I'm writing my first blog post from Goma / Butembo, DR Congo.</p>

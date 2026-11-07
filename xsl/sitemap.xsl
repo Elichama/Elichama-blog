@@ -298,7 +298,7 @@
               </svg>
               Sitemap
             </span>
-            <h1><a href="https://elichama.github.io/elichama-blog/">Elichama Blog</a></h1>
+            <h1><a href="https://elichama.github.io/Elichama-blog/">Elichama Blog</a></h1>
             <p class="description">My personal blog about coding and life in DR Congo</p>
             <div class="subscribe">
               <label for="sitemap-url">Sitemap URL:</label>
@@ -307,7 +307,7 @@
                   <xsl:attribute name="type">url</xsl:attribute>
                   <xsl:attribute name="readonly">readonly</xsl:attribute>
                   <xsl:attribute name="spellcheck">false</xsl:attribute>
-                  <xsl:attribute name="value">https://elichama.github.io/elichama-blog/sitemap.xml</xsl:attribute>
+                  <xsl:attribute name="value">https://elichama.github.io/Elichama-blog/sitemap.xml</xsl:attribute>
                 </input>
                 <button type="button" class="copy" data-target="sitemap-url" data-copied="Copied!">Copy</button>
               </div>
