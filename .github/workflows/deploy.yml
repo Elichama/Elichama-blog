@@ -1,42 +1,19 @@
-name: Deploy Cecil to Pages
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.3'
-      - name: Download Cecil
-        run: curl -LO https://cecil.app/cecil.phar
-      - name: Build site
-        run: php cecil.phar build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        id: deployment
+title: "Elichama Blog"
+baseline: "Developer from Goma / Butembo"
+baseurl: "https://elichama.github.io/Elichama-blog/"
+description: "My personal blog about coding and life in DR Congo"
+language: en
+menus:
+  main:
+    - id: home
+      name: "Home"
+      url: "/"
+      weight: 1
+    - id: blog
+      name: "Blog"
+      url: "/blog/"
+      weight: 2
+    - id: about
+      name: "About"
+      url: "/about/"
+      weight: 3
