@@ -1,4 +1,4 @@
-name: Deploy Cecil to Pages
+name: Deploy Cecil to Pages 
 on:
   push:
     branches: [ main ]
