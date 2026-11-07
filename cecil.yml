@@ -1,17 +1,3 @@
-menus:
-  main:
-    - id: home
-      name: "Home"
-      url: "/"
-      weight: 1
-    - id: blog
-      name: "Blog"
-      url: "/blog/"
-      weight: 2
-    - id: about
-      name: "About"
-      url: "/about/"
-      weight: 3
 title: "Elichama Blog"
 baseline: "Developer from Goma / Butembo"
 baseurl: "https://elichama.github.io/Elichama-blog/"
